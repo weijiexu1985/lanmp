@@ -900,9 +900,9 @@ chmod 775 $WEBROOT/moodle
 
 cd $LANMMP_PATH/
 if [ ! -d "src/" ];then
-mkdir -p src
+mkdir -p src/
 fi
-mv ./{*gz,*-*/,*patch,ioncube,package.xml} ./src >/dev/null 2>&1
+\mv ./{*gz,*-*/,*patch,ioncube,package.xml} ./src >/dev/null 2>&1
 
 clear
 echo ""
